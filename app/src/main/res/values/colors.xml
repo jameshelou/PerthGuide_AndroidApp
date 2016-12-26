@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary - shown in app bar -->
+    <color name="colorPrimary">#2196F3</color>
+
+    <!-- Primary Dark - show in status bar -->
+    <color name="colorPrimaryDark">#0D47A1</color>
+
+    <!-- Accent - no idea -->
+    <color name="colorAccent">#C5CAE9</color>
+
+    <!-- Background color -->
+    <color name="color_background">#E3F2FD</color>
+
+    <!-- Tourism category -->
+    <color name="category_tourism">#FFC107</color>
+
+    <!-- TODO: Rest of category colors -->
+
+    <!-- Tourism list item background -->
+    <color name ="background_tourism">#FFECB3</color>
+
+    <!-- TODO: Rest of list item background colors -->
+</resources>

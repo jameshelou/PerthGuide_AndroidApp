@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Perth Guide</string>
+
+    <!-- Placeholder string -->
+    <string name="placeholder">PlaceHolder</string>
+
+    <!-- Tourism category header -->
+    <string name="category_tourism">Tourist guide</string>
+
+
+    <!-- TabLayout tab categories for corresponding fragments -->
+    <string name="landmark_tab">Landmarks</string>
+
+    <string name="natural_tab">Natural landmarks</string>
+
+    <string name="beaches_tab">Beaches</string>
+
+    <string name="food_tab">Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
