@@ -17,6 +17,12 @@
 
     <string name="food_tab">Food</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Info for LandmarkFragment list items -->
+    <string name="bell_tower">Overlooking the Swan River, the Bell Tower (Also
+    known as the Swan Bells) is a historic icon in Perth. Donated to Western Australia
+    during the Bicentennial celebrations of Australia in 1988.</string>
+
+    <string name="elizabeth_quay">Located near the Perth CBD and named in honor of
+    Queen Elizabeth II. Entertainment and leisure precinct with a water inlet
+    overlooked by the iconic pedestrian bridges.</string>
 </resources>

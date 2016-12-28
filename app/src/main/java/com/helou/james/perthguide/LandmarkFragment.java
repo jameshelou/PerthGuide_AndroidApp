@@ -28,10 +28,10 @@ public class LandmarkFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
         ArrayList<Location> test = new ArrayList<Location>();
-        test.add(new Location("SomeLandmark", "Some information about the beach",
-                R.drawable.beach_cott));
-        test.add(new Location("LANDMARK2", "Some MORE information about the beach",
-                R.drawable.beach_cott));
+        test.add(new Location("The Bell Tower", getString(R.string.bell_tower),
+                R.drawable.landmark_belltower));
+        test.add(new Location("Elizabeth Quay", getString(R.string.elizabeth_quay),
+                R.drawable.landmark_quay));
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         LocationAdapter adapter = new LocationAdapter(getActivity(), test);
