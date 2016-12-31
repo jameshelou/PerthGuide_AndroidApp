@@ -27,14 +27,12 @@ public class FoodFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        ArrayList<Location> test = new ArrayList<Location>();
-        test.add(new Location("Restooo1", "Some information about the beach",
-                R.drawable.beach_cott));
-        test.add(new Location("Restooo2", "Some MORE information about the beach",
-                R.drawable.beach_cott));
+        ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(new Location("Swan Valley", getString(R.string.swan_valley),
+                R.drawable.food_swan_valley));
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
-        LocationAdapter adapter = new LocationAdapter(getActivity(), test);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 
         return rootView;

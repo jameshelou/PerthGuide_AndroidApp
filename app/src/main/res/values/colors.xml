@@ -17,8 +17,8 @@
 
     <!-- TODO: Rest of category colors -->
 
-    <!-- Tourism list item background -->
-    <color name ="background_tourism">#FFECB3</color>
+    <!-- Tourism list item header background -->
+    <color name="background_tourism">#FFECB3</color>
 
     <!-- TODO: Rest of list item background colors -->
 </resources>

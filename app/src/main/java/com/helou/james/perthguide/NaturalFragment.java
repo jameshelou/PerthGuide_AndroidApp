@@ -27,14 +27,18 @@ public class NaturalFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        ArrayList<Location> test = new ArrayList<Location>();
-        test.add(new Location("Natural1", "Some information about the beach",
-                R.drawable.beach_cott));
-        test.add(new Location("Natural2", "Some MORE information about the beach",
-                R.drawable.beach_cott));
+        ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(new Location("Kings Park", getString(R.string.kings_park),
+                R.drawable.natural_kings_park));
+        locations.add(new Location("Rottnest Island", getString(R.string.rottnest_island),
+                R.drawable.natural_rottnest));
+        locations.add(new Location("Caversham Wildlife Park", getString(R.string.caversham_park),
+                R.drawable.natural_caversham));
+        locations.add(new Location("The Pinnacles", getString(R.string.the_pinnacles),
+                R.drawable.natural_pinnacles));
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
-        LocationAdapter adapter = new LocationAdapter(getActivity(), test);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 
         return rootView;

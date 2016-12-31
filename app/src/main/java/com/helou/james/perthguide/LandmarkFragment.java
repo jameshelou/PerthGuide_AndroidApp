@@ -27,14 +27,14 @@ public class LandmarkFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        ArrayList<Location> test = new ArrayList<Location>();
-        test.add(new Location("The Bell Tower", getString(R.string.bell_tower),
+        ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(new Location("The Bell Tower", getString(R.string.bell_tower),
                 R.drawable.landmark_belltower));
-        test.add(new Location("Elizabeth Quay", getString(R.string.elizabeth_quay),
+        locations.add(new Location("Elizabeth Quay", getString(R.string.elizabeth_quay),
                 R.drawable.landmark_quay));
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
-        LocationAdapter adapter = new LocationAdapter(getActivity(), test);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 
         return rootView;

@@ -27,14 +27,16 @@ public class BeachFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
-        ArrayList<Location> test = new ArrayList<Location>();
-        test.add(new Location("SomeBeach", "Some information about the beach",
+        ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(new Location("Scarborough Beach", getString(R.string.scarborough_beach),
+                R.drawable.beach_scarbs));
+        locations.add(new Location("Cottesloe Beach", getString(R.string.cottesloe_beach),
                 R.drawable.beach_cott));
-        test.add(new Location("SomeBeach2", "Some MORE information about the beach",
-                R.drawable.beach_cott));
+        locations.add(new Location("Hillarys Boat Harbour",
+                getString(R.string.hillarys_boat_harbour), R.drawable.beach_hillarys));
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
-        LocationAdapter adapter = new LocationAdapter(getActivity(), test);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 
         return rootView;
