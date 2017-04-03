@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find TextViews
         TextView tourist_textview = (TextView) findViewById(R.id.tourism_textview);
+        TextView info_textview = (TextView) findViewById(R.id.info_textview);
 
         // Set up click listeners for category navigation
         tourist_textview.setOnClickListener(new View.OnClickListener() {
@@ -25,6 +26,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // TODO other category click listeners
+        info_textview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, InfoActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

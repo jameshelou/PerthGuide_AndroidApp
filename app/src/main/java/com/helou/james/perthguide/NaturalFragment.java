@@ -37,7 +37,7 @@ public class NaturalFragment extends Fragment {
         locations.add(new Location("The Pinnacles", getString(R.string.the_pinnacles),
                 R.drawable.natural_pinnacles));
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.location_list);
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 

@@ -5,22 +5,22 @@
     android:layout_height="wrap_content">
 
     <ImageView
-        android:id="@+id/list_item_image"
+        android:id="@+id/loc_image"
         android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="256dp"/>
 
     <TextView
-        android:id="@+id/list_item_header"
+        android:id="@+id/loc_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/placeholder"
-        style="@style/list_item_header"/>
+        style="@style/tourism_list_item_header"/>
 
     <TextView
-        android:id="@+id/list_item_body"
+        android:id="@+id/loc_body"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/list_item_body"/>
+        style="@style/tourism_list_item_body"/>
 
 </LinearLayout>

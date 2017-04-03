@@ -7,6 +7,10 @@
     <!-- Tourism category header -->
     <string name="category_tourism">Tourist guide</string>
 
+    <!-- Useful Info category header -->
+    <string name="category_info">Useful info</string>
+
+
 
     <!-- TabLayout tab categories for corresponding fragments -->
     <string name="landmark_tab">Landmarks</string>
@@ -55,4 +59,13 @@
     <string name="swan_valley">Award-winning wineries and vineyards located only 25 minutes
     from the city. All wineries offer wine-tasting and alfresco dining with many tour services
     operating throughout the area.</string>
+
+
+    <!-- Useful info data -->
+    <string name="transportation">Transport</string>
+    <string name="transportation_body">Find your way around Perth</string>
+
+
+    <string name="weather">Weather</string>
+    <string name="weather_body">Check the latest Perth weather details</string>
 </resources>

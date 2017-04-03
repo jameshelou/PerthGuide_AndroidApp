@@ -21,38 +21,39 @@
 <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/category_tourism"
+    android:background="@color/colorAccent"
     android:layout_alignParentStart="true"
     android:layout_toStartOf="@id/center_divider"
     android:layout_above="@id/middle_divider">
     <TextView
-        android:id="@+id/tourism_textview"
         style="@style/category_textview"
-        android:text="@string/category_tourism" />
+        android:text="@string/placeholder" />
 </FrameLayout>
 
 <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent"
+        android:background="@color/category_info"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@id/center_divider"
         android:layout_above="@id/middle_divider">
     <TextView
+        android:id="@+id/info_textview"
         style="@style/category_textview"
-        android:text="@string/placeholder" />
+        android:text="@string/category_info" />
 </FrameLayout>
 
 <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent"
+        android:background="@color/category_tourism"
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@id/center_divider"
         android:layout_below="@id/middle_divider">
     <TextView
+        android:id="@+id/tourism_textview"
         style="@style/category_textview"
-        android:text="@string/placeholder" />
+        android:text="@string/category_tourism" />
 </FrameLayout>
 
 <FrameLayout

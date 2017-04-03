@@ -33,7 +33,7 @@ public class LandmarkFragment extends Fragment {
         locations.add(new Location("Elizabeth Quay", getString(R.string.elizabeth_quay),
                 R.drawable.landmark_quay));
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.location_list);
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 

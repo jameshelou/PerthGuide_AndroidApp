@@ -35,7 +35,7 @@ public class BeachFragment extends Fragment {
         locations.add(new Location("Hillarys Boat Harbour",
                 getString(R.string.hillarys_boat_harbour), R.drawable.beach_hillarys));
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.location_list);
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 

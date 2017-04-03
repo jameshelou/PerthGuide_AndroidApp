@@ -31,7 +31,7 @@ public class FoodFragment extends Fragment {
         locations.add(new Location("Swan Valley", getString(R.string.swan_valley),
                 R.drawable.food_swan_valley));
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.location_list);
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
         listView.setAdapter(adapter);
 

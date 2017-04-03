@@ -17,11 +17,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TouristActivity"
+        <activity
+            android:name=".TouristActivity"
             android:label="@string/category_tourism"
-            android:parentActivityName=".MainActivity">
-        </activity>
+            android:parentActivityName=".MainActivity"></activity>
 
+        <activity android:name=".InfoActivity"
+            android:label="@string/category_info"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
